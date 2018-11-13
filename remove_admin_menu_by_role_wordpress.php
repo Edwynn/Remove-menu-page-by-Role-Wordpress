@@ -1,5 +1,3 @@
-/*DESACTIVANDO AJUSTES DE WOOCOMERCE*/
-
 add_action( 'admin_menu', 'remove_menu_pages', 999);
 function remove_menu_pages() {
   global $current_user;
@@ -21,8 +19,10 @@ function remove_menu_pages() {
 	$remove_submenu = remove_menu_page( 'edit.php?post_type=client' );    //Client
 	$remove_submenu = remove_menu_page( 'edit.php?post_type=template' );    //Template 
 	$remove_submenu = remove_menu_page( 'edit.php?post_type=layout' );    //Layout  
-	$remove_submenu = remove_menu_page( 'edit.php?post_type=slide' );    //slider   
-	$remove_submenu =   remove_menu_page( 'wpcf7' );
+	$remove_submenu = remove_menu_page( 'edit.php?post_type=slide' );    //slider
+	$remove_submenu = remove_menu_page( 'edit.php?post_type=offer ' );    //Offer   
+	$remove_submenu =   remove_menu_page( 'wpcf7' ); //Contact Form 7
+	 
 	  
   }
 }
