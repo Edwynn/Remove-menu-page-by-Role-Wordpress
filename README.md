@@ -1,2 +1,2 @@
 # Remove Menu Admin Page by User Role Wordpress
-This sniRemove Menu Admin Bar by User Role Wordpress from Functions.php
+Copy and Paste this code in the file Functions.php
