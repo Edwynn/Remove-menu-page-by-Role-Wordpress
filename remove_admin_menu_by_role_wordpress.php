@@ -12,7 +12,6 @@ function remove_menu_pages() {
 	$remove_submenu = remove_menu_page('link-manager.php'); //Links
     $remove_submenu = remove_menu_page('tools.php'); //Tools
 	$remove_submenu = remove_menu_page('vc-welcome');  //Composer Welcome
-	$remove_submenu = remove_menu_page('users.php'); //User
 	$remove_submenu = remove_menu_page('edit-comments.php'); //Comments
 	$remove_submenu =  remove_menu_page( 'edit.php' );                   //Posts 
   	$remove_submenu = remove_menu_page( 'edit.php?post_type=page' );    //Pages
@@ -22,10 +21,13 @@ function remove_menu_pages() {
 	$remove_submenu = remove_menu_page( 'edit.php?post_type=template' );    //Template 
 	$remove_submenu = remove_menu_page( 'edit.php?post_type=layout' );    //Layout  
 	$remove_submenu = remove_menu_page( 'edit.php?post_type=slide' );    //slider
-	$remove_submenu = remove_menu_page( 'edit.php?post_type=offer' );    //Offer   
+	$remove_submenu = remove_menu_page( 'edit.php?post_type=offer' );    //Offer  
+	$remove_submenu = remove_menu_page( 'edit.php?post_type=faq' );    //Faq   
+	$remove_submenu = remove_menu_page( 'edit.php?post_type=event' );    //Event   
+	$remove_submenu = remove_menu_page( 'edit.php?post_type=member' );    //Member
+	$remove_submenu = remove_menu_page( 'edit.php?post_type=block' );    //Block
 	$remove_submenu =   remove_menu_page( 'wpcf7' ); //Contact Form 7
 	 
 	  
   }
 }
-
